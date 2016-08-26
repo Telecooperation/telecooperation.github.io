@@ -105,7 +105,7 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 179px;
+  width: 88px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
@@ -149,7 +149,7 @@ a.button:hover {
 a.button span {
   display: block;
   height: 23px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 #download-zip span {
@@ -158,11 +158,22 @@ a.button span {
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+
+.header-logo-invertocat {
+    float: left;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-left: -2px;
+    color: #333;
+    white-space: nowrap;
 }
-#view-on-github {
-  margin-right: 0;
+.header-logo-invertocat .octicon-mark-github {
+    float: left;
+    font-size: 28px;
+    width: 36px;
+}
+svg:not(:root) {
+    overflow: hidden;
 }
 
 code, pre {
